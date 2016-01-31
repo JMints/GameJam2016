@@ -12,6 +12,7 @@
     <sprite>sprites\sprite_wall</sprite>
     <sprite>sprites\sprite_interactable</sprite>
     <sprite>sprites\sprite_destroyed</sprite>
+    <sprite>sprites\sprite_text_win</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,11 +25,15 @@
     <objects name="interactables">
       <object>objects\object_interactable</object>
       <object>objects\object_interactable2</object>
+      <object>objects\object_interactable3</object>
     </objects>
+    <object>objects\object_win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_game</room>
     <room>rooms\room_fail</room>
+    <room>rooms\room_win</room>
+    <room>rooms\room_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
