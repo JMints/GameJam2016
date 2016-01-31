@@ -4,23 +4,34 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\BUSTEDDDDD</sound>
+    <sound>sound\CollideWithNPC</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_player</sprite>
     <sprite>sprites\sprite_enemy</sprite>
     <sprite>sprites\sprite_text_gameover</sprite>
-    <sprite>sprites\sprite_wall</sprite>
+    <sprite>sprites\sprite_blocker</sprite>
     <sprite>sprites\sprite_interactable</sprite>
     <sprite>sprites\sprite_destroyed</sprite>
     <sprite>sprites\sprite_text_win</sprite>
+    <sprite>sprites\ghost_caught</sprite>
+    <sprite>sprites\dad</sprite>
+    <sprite>sprites\ghost</sprite>
+    <sprite>sprites\walls</sprite>
+    <sprite>sprites\sprite_blocker_mini_wide</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\object_player</object>
     <object>objects\object_enemy</object>
     <object>objects\object_gameover</object>
-    <object>objects\object_wall</object>
+    <object>objects\object_blocker</object>
+    <object>objects\object_blocker_mini_wide</object>
     <object>objects\controller</object>
     <objects name="interactables">
       <object>objects\object_interactable</object>
