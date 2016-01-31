@@ -16,11 +16,15 @@
     <sprite>sprites\sprite_interactable</sprite>
     <sprite>sprites\sprite_destroyed</sprite>
     <sprite>sprites\sprite_text_win</sprite>
-    <sprite>sprites\ghost_caught</sprite>
-    <sprite>sprites\dad</sprite>
-    <sprite>sprites\ghost</sprite>
-    <sprite>sprites\walls</sprite>
+    <sprite>sprites\sprite_ghost_caught</sprite>
+    <sprite>sprites\sprite_dad</sprite>
+    <sprite>sprites\sprite_ghost</sprite>
+    <sprite>sprites\sprite_walls</sprite>
     <sprite>sprites\sprite_blocker_mini_wide</sprite>
+    <sprite>sprites\sprite_nightstand</sprite>
+    <sprite>sprites\sprite_toilet</sprite>
+    <sprite>sprites\sprite_sink</sprite>
+    <sprite>sprites\sprite_bed</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
@@ -37,8 +41,16 @@
       <object>objects\object_interactable</object>
       <object>objects\object_interactable2</object>
       <object>objects\object_interactable3</object>
+      <object>objects\object_interactable4</object>
+      <object>objects\object_interactable5</object>
     </objects>
     <object>objects\object_win</object>
+    <objects name="collidables">
+      <object>objects\object_nightstand</object>
+      <object>objects\object_bed</object>
+      <object>objects\object_toilet</object>
+      <object>objects\object_sink</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_game</room>
