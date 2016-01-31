@@ -213,7 +213,7 @@
     <instance objName="object_blocker" x="331" y="394" name="inst_BC8B5F49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable" x="428" y="123" name="inst_26E162A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable2" x="887" y="321" name="inst_CF86F140" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_interactable4" x="98" y="574" name="inst_21C572C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_interactable4" x="261" y="424" name="inst_21C572C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable_exit" x="34" y="436" name="inst_91323529" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable3" x="452" y="539" name="inst_8CB4744C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_nightstand" x="411" y="60" name="inst_20F4B214" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -234,19 +234,19 @@
     <instance objName="object_chair_left" x="499" y="585" name="inst_1A538843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_couch" x="64" y="610" name="inst_577C8536" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_chair_right" x="382" y="584" name="inst_E5125C0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_dresser" x="352" y="192" name="inst_1B750326" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_dresser" x="359" y="302" name="inst_1B750326" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_entry_stand" x="64" y="400" name="inst_91CC39AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_kitchen_counter" x="525" y="562" name="inst_2FE9FB60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_plant" x="299" y="638" name="inst_7408D52A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_kitchen_table" x="415" y="579" name="inst_29347858" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_shower" x="694" y="256" name="inst_4D9704ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_interactable_dummy" x="259" y="433" name="inst_5FA94CCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable_dummy" x="593" y="632" name="inst_DF69D5EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_interactable_dummy" x="393" y="213" name="inst_5B86DA89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_interactable_dummy" x="403" y="324" name="inst_5B86DA89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable_dummy" x="763" y="265" name="inst_7E3F4A1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable_dummy" x="259" y="668" name="inst_3E2649E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable_dummy" x="63" y="432" name="inst_E90DC72F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_interactable_waypoint" x="581" y="66" name="inst_A96DAF5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_interactable5" x="100" y="573" name="inst_3C181D83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

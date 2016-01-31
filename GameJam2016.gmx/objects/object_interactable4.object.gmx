@@ -197,13 +197,13 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>object_briefcase</whoName>
+        <whoName>object_aquarium</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>sprite_briefcase_bad</sprite>
+            <sprite>sprite_aquarium_bad</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -212,6 +212,30 @@
           <argument>
             <kind>0</kind>
             <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>object_aquarium</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-6</string>
           </argument>
         </arguments>
       </action>
@@ -240,6 +264,30 @@
           <argument>
             <kind>0</kind>
             <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>AquariumBubbles</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
