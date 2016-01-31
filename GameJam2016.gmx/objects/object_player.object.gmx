@@ -29,6 +29,65 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>mspeed = 5;
+left = false;
+right = false;
+up = false;
+down = false;
+canpressup = true;
+canpressdown = true;
+canpressleft = true;
+canpressright = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (left == true){motion_set(180,mspeed);}
+else if (right == true){motion_set(0,mspeed);}
+else if (up == true){motion_set(90,mspeed); }    
+else if (down == true){ motion_set(270,mspeed);}
+else{
+vspeed=0;
+hspeed=0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="4" ename="object_wall">
       <action>
@@ -151,13 +210,13 @@
     <event eventtype="9" enumb="40">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -165,11 +224,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>010000000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>5</string>
+            <string>if(canpressdown == true){
+down = true;
+left = false;
+right = false;
+up = false;
+canpressdown = false;
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -177,13 +239,13 @@
     <event eventtype="9" enumb="39">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -191,11 +253,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000001000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>5</string>
+            <string>if(canpressright == true){
+right = true;
+left = false;
+up = false;
+down = false;
+canpressright = false;
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -203,13 +268,13 @@
     <event eventtype="9" enumb="38">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -217,11 +282,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000000010</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>5</string>
+            <string>if(canpressup == true){
+up = true;
+left = false;
+right = false;
+down = false;
+canpressup = false;
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -229,13 +297,13 @@
     <event eventtype="9" enumb="37">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -243,11 +311,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000100000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>5</string>
+            <string>if(canpressleft == true){
+left = true;
+up = false;
+right = false;
+down = false;
+canpressleft = false;
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -255,13 +326,13 @@
     <event eventtype="10" enumb="40">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -269,11 +340,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000010000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <string>down = false;
+if(keyboard_check(vk_right)){right = true;}
+else if(keyboard_check(vk_up)){up = true;}
+else if(keyboard_check(vk_left)){left = true;}
+canpressdown = true;
+</string>
           </argument>
         </arguments>
       </action>
@@ -281,13 +353,13 @@
     <event eventtype="10" enumb="39">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -295,11 +367,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000010000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <string>right = false;
+if(keyboard_check(vk_left)){left = true;}
+else if(keyboard_check(vk_up)){up = true;}
+else if(keyboard_check(vk_down)){down = true;}
+canpressright = true;
+</string>
           </argument>
         </arguments>
       </action>
@@ -307,13 +380,13 @@
     <event eventtype="10" enumb="38">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -321,11 +394,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000010000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <string>up = false;
+if(keyboard_check(vk_right)){right = true;}
+else if(keyboard_check(vk_left)){left = true;}
+else if(keyboard_check(vk_down)){down = true;}
+canpressup = true;
+</string>
           </argument>
         </arguments>
       </action>
@@ -333,13 +407,13 @@
     <event eventtype="10" enumb="37">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -347,11 +421,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000010000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <string>left = false;
+if(keyboard_check(vk_right)){right = true;}
+else if(keyboard_check(vk_up)){up = true;}
+else if(keyboard_check(vk_down)){down = true;}
+canpressleft = true;
+</string>
           </argument>
         </arguments>
       </action>
