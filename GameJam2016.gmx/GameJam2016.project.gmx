@@ -51,6 +51,7 @@
     <background>background\background_rug</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\object_player</object>
     <object>objects\object_enemy</object>
