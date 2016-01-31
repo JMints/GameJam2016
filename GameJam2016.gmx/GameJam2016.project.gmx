@@ -29,9 +29,26 @@
     <sprite>sprites\sprite_sink_bad</sprite>
     <sprite>sprites\sprite_bed</sprite>
     <sprite>sprites\sprite_toilet_bad</sprite>
+    <sprite>sprites\sprite_coffee</sprite>
+    <sprite>sprites\sprite_coffee_bad</sprite>
+    <sprite>sprites\sprite_briefcase</sprite>
+    <sprite>sprites\sprite_briefcase_bad</sprite>
+    <sprites name="sprite_backgrounds">
+      <sprite>sprites\sprite_aquarium</sprite>
+      <sprite>sprites\sprite_chair_left</sprite>
+      <sprite>sprites\sprite_chair_right</sprite>
+      <sprite>sprites\sprite_couch</sprite>
+      <sprite>sprites\sprite_dresser</sprite>
+      <sprite>sprites\sprite_entry_stand</sprite>
+      <sprite>sprites\sprite_kitchen_counter</sprite>
+      <sprite>sprites\sprite_kitchen_table</sprite>
+      <sprite>sprites\sprite_plant</sprite>
+      <sprite>sprites\sprite_shower</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
+    <background>background\background_rug</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -46,7 +63,8 @@
       <object>objects\object_interactable2</object>
       <object>objects\object_interactable3</object>
       <object>objects\object_interactable4</object>
-      <object>objects\object_interactable5</object>
+      <object>objects\object_interactable_exit</object>
+      <object>objects\object_interactable_waypoint</object>
       <object>objects\object_interactable_dummy</object>
     </objects>
     <object>objects\object_win</object>
@@ -55,6 +73,18 @@
       <object>objects\object_bed</object>
       <object>objects\object_toilet</object>
       <object>objects\object_sink</object>
+      <object>objects\object_coffee</object>
+      <object>objects\object_briefcase</object>
+      <object>objects\object_aquarium</object>
+      <object>objects\object_chair_left</object>
+      <object>objects\object_chair_right</object>
+      <object>objects\object_couch</object>
+      <object>objects\object_dresser</object>
+      <object>objects\object_entry_stand</object>
+      <object>objects\object_kitchen_counter</object>
+      <object>objects\object_plant</object>
+      <object>objects\object_kitchen_table</object>
+      <object>objects\object_shower</object>
     </objects>
     <object>objects\controller_win</object>
   </objects>
