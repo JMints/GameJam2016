@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\BUSTEDDDDD</sound>
     <sound>sound\CollideWithNPC</sound>
+    <sound>sound\YouWin</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_player</sprite>
@@ -22,9 +23,12 @@
     <sprite>sprites\sprite_walls</sprite>
     <sprite>sprites\sprite_blocker_mini_wide</sprite>
     <sprite>sprites\sprite_nightstand</sprite>
+    <sprite>sprites\sprite_nightstand_bad</sprite>
     <sprite>sprites\sprite_toilet</sprite>
     <sprite>sprites\sprite_sink</sprite>
+    <sprite>sprites\sprite_sink_bad</sprite>
     <sprite>sprites\sprite_bed</sprite>
+    <sprite>sprites\sprite_toilet_bad</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
@@ -43,6 +47,7 @@
       <object>objects\object_interactable3</object>
       <object>objects\object_interactable4</object>
       <object>objects\object_interactable5</object>
+      <object>objects\object_interactable_dummy</object>
     </objects>
     <object>objects\object_win</object>
     <objects name="collidables">
@@ -51,6 +56,7 @@
       <object>objects\object_toilet</object>
       <object>objects\object_sink</object>
     </objects>
+    <object>objects\controller_win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_game</room>

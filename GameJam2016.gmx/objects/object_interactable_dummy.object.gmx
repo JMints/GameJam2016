@@ -225,13 +225,13 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>object_nightstand</whoName>
+        <whoName>object_sink</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>sprite_nightstand_bad</sprite>
+            <sprite>sprite_sink_bad</sprite>
           </argument>
           <argument>
             <kind>0</kind>
